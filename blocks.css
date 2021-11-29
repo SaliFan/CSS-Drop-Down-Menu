@@ -1,0 +1,98 @@
+body {
+    Background: #212121;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+h3 a {
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+p{
+
+    text-align: center;
+
+}
+
+nav{
+    margin: 50px 0;
+    background-color: orangered;
+
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: orangered;
+
+}
+
+nav a{
+    display: block;
+    padding: 0 auto;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+
+
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+
+nav ul li:hover > ul{
+    display: inherit;
+}
+
+nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 170px;
+
+
+}
+
